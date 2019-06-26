@@ -14,9 +14,9 @@ const{ GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLInt, G
 ];
 
 var author= [
-    {name:'Patrick', age: 44, id: '1'},
-    {name:'Patrick', age: 42, id: '2'},
-    {name:'Patrick', age: 66, id: '3'}
+    {name:'Patrick Rothfuss', age: 44, id: '1'},
+    {name:'Brandon Sanderson', age: 42, id: '2'},
+    {name:'Terry Pratchett', age: 66, id: '3'}
 ]
 
 const BookType = new GraphQLObjectType({
