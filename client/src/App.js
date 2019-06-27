@@ -1,7 +1,9 @@
 import React from 'react';
 import ApolloClient from 'apollo-boost';
 import {ApolloProvider} from 'react-apollo';
+
 import BookList from './components/BookList';
+import AddBook from './components/AddBook';
 
 //apollo client setup
 
@@ -15,6 +17,7 @@ function App() {
       <div id="main">
         <h1>Book List</h1>
         <BookList/>
+        <AddBook/>
       </div>
     </ApolloProvider>
   );
